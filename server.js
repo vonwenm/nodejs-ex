@@ -59,7 +59,7 @@ var initDb = function(callback) {
   });
 };
 
-app.use(favicon(path.join(  'public', 'images', 'favicon.ico')));
+//app.use(favicon(path.join(  'public', 'images', 'favicon.ico')));
 app.use(express.static('public'))
 console.log('FAVICON.ICO:  %s', path.join(   __dirname, '..', 'src', 'public', 'images', 'favicon.ico') );
 

@@ -59,7 +59,7 @@ var initDb = function(callback) {
   });
 };
 
-app.use(favicon(path.join(  __dirname, '/public/images/favicon.ico')));
+app.use(favicon(path.join(  __dirname, '..', 'public', 'images' 'favicon.ico')));
 
 app.get('/', function (req, res) {
   // try to initialize the db on every request if it's not already

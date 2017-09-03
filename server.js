@@ -2,8 +2,9 @@
 var express = require('express'),
     fs      = require('fs'),
     app     = express(),
-    morgan  = require('morgan');
-    
+    morgan  = require('morgan'),
+    favicon = require('serve-favicon');
+
 Object.assign=require('object-assign')
 
 app.engine('html', require('ejs').renderFile);

@@ -3,7 +3,7 @@ var express = require('express'),
     fs      = require('fs'),
     app     = express(),
     morgan  = require('morgan'),
-    path    = require('path.join'),
+    path    = require('path'),
     favicon = require('serve-favicon');
 
 Object.assign=require('object-assign')
